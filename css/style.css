@@ -1,0 +1,78 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common  */
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(204, 54%, 18%);
+}
+
+/* header */
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: hsl(204, 54%, 38%);
+}
+.logo img {
+    width: 50px;
+}
+
+/* main */
+main {
+    height: calc(100vh - 70px);
+}
+
+/* discs */
+.discs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+/* disc */
+.disc {
+    width: calc(100% / 5 - 2rem);
+    margin: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(204, 54%, 38%);
+    box-shadow: 2px 2px 6px hsl(204, 34%, 38%);
+}
+
+/* disc poster */
+.disc-poster,
+.disc-poster img {
+    width: 100%;
+}
+
+/* disc info  */
+.disc-info {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+.disc-info .author {
+    color: hsl(184, 64%, 58%);
+}
+.disc-info .title {
+    color: hsl(184, 64%, 88%);
+}
+.disc-info .genre {
+    margin: 10px 0;
+}
+.disc-info .genre,
+.disc-info .year {
+    color: hsl(204, 54%, 18%);
+}
